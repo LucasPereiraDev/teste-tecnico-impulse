@@ -1,7 +1,14 @@
 export function Header() {
   return (
-    <header className="bg-black flex flex-wrap justify-between px-7 py-10">
-      <h1 className="text-4xl font-bold text-white font-Arial text-center items-center justify-center w-screen">PRCursos</h1>
+    <header className="bg-black flex justify-between py-3 px-10 font-[Georgia]">
+      <h1 className="text-2xl font-bold text-white text-center items-center justify-center  font-serif">Unique Imobi</h1>
+      <nav>
+        <ul className="flex text-white gap-5">
+          <li>Contato</li>
+          <li>Sobre</li>
+          <li>+</li>
+        </ul>
+      </nav>
     </header>
   ) 
 }
