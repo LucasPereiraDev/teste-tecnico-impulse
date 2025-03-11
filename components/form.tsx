@@ -1,6 +1,6 @@
 export function Form() {
   return (
-    <div className="mt-8 bg-gray-950 p-6 mx-6 rounded-lg shadow-lg w-full max-w-md flex flex-col justify-self-center ">
+    <div className="mt-4 bg-gray-950 p-6 rounded-lg shadow-lg max-w-120 flex flex-col justify-self-center">
       <p className="text-base sm:text-lg text-center text-zinc-300 mb-4">Preencha com seu melhor e-mail e receba o link para garantir sua vaga!</p>
       <form className="flex flex-col">
         <input 
