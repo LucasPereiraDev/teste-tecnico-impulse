@@ -9,11 +9,12 @@ import { Faq } from "../../components/faq";
 
 
 
+
 export default function Document() {
   return (
     <Html lang="PT-br">
       <Head />
-      <body className="bg-zinc-900">
+      <body className="bg-zinc-900 text-sans bg-gradient-to-b from-gray-900 to-zinc-950">
         <Atencao />
         <Header />
         <Main />
