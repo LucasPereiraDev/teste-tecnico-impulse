@@ -1,1 +1,9 @@
 @import "tailwindcss";
+details summary {
+  list-style-type: none; /* Remove o marcador (seta) */
+  cursor: pointer; /* Mantém o cursor de mão */
+}
+
+details[open] summary::before {
+  content: none; /* Remove a seta ao expandir */
+}
