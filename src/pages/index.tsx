@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center text-white mt-20 my-6 px-6">
       <h1 className="text-center text-xl sm:text-2xl font-bold  leading-tight">
-        A CHAVE DO SUCESSO IMOBILIÁRIO ESTÁ AQUI!
+        A CHAVE DO SUCESSO IMOBILIÁRIO TECH ESTÁ AQUI!
       </h1>
       <h2 className="text-center text-lg sm:text-xl mt-4 max-w-2xl ">
         Somente ESSA SEMANA: participe da mentoria exclusiva e aprenda os segredos que 
