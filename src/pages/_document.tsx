@@ -14,7 +14,7 @@ export default function Document() {
   return (
     <Html lang="PT-br">
       <Head />
-      <body className="bg-zinc-900 text-sans bg-gradient-to-b from-gray-900 to-zinc-950">
+      <body className="bg-[url('/bgg.jpg')] bg-cover bg-center h-screen text-sans bg-gradient-to-b from-gray-900 to-zinc-950 font-mono">
         <Atencao />
         <Header />
         <Main />
